@@ -15,7 +15,10 @@ function test(){
 var btn1 = document.getElementById("btn1");
 btn1.onclick = testRadio;
 btn1.onclick = test ;
+
 var btn2 = document.getElementById("btn2");
 btn2.addEventListener("click" , testRadio);
 btn2.addEventListener("click", test);
+
+
 
