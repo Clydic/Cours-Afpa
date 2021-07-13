@@ -1,0 +1,9 @@
+#zone 
+{
+    width: 600px;
+    height: 430px;
+    border: 1px solid #ccc;
+    border-radius: 10 px;
+    margin: 20px;
+    padding: 10px;
+}
