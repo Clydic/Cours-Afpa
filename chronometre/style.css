@@ -1,0 +1,24 @@
+fieldset{
+    width: 6%;
+    background-color: rgb(76, 196, 196);
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+}
+#sectBtn{
+    display: flex;
+    margin: auto;
+}
+span{
+    text-align: center;
+}
+
+.invisible{
+    display: none;
+}
+
+.visible{
+    display: inline;
+}
+
+
