@@ -18,7 +18,9 @@ function main(){
     console.log("main")
     
 
-
+/**
+ * Crée un tableau Html d'image.
+ */
     function showBackCard(){
         var maDive = document.getElementById("zone");
         var tbl = document.createElement("table");
@@ -54,6 +56,13 @@ function main(){
         var name = monImg.getAttribute("name");
         monImg.setAttribute("src", CHEMIN + name);
     }
+    function remetImage(id){
+        var monImg = document.getElementById(id);
+        monImg.removeEventListener("")
+        var name = monImg.getAttribute("name");
+        monImg.setAttribute("src", CHEMIN + DOS);
+
+    }
 
     function createImage(idImg, nameImg) {
         var monImg = document.createElement('img');
@@ -66,6 +75,7 @@ function main(){
         });
         return monImg;
     }
-       
+    
+    
 }
 main();
