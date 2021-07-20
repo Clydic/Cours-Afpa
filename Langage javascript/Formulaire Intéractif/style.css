@@ -1,0 +1,14 @@
+
+input.saisi:focus{
+    color: none;
+ }
+.invalid{
+	box-shadow: 0px 0px 5px 1px red;
+	
+}
+
+.valid{
+	box-shadow: 0px 0px 5px 1px green;
+
+}
+ 

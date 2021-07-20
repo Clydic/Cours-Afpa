@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛑 Formulaire intéractif</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulaire</h1>
+    <h2>Version onclick</h2>
+    <form method="get" id="form1" action="https://www.afpa.fr/" >
+        <label for="nom1">Saisissez un texte pressez le bouton Contrôler </label><br/>
+        <input type="text" class="saisi" name="nom1" id="nom1" required="required"/>
+        <input type="submit" value="Contrôler" onclick="return controlOnClickHtml(this.form)" />
+    </form>
+
+    <h2>Propriété onclick</h2>
+    <form method="get" action="https://www.afpa.fr/">
+        <label for="nom2">Saisissez un texte pressez le bouton Contrôler </label><br/>
+        <input type="text" class="saisi" name="nom2" id="nom2" required="required"/
+        ><input type="submit" id="btn2" value="Contrôler" />
+    </form>
+    <h2>addEventListener</h2>
+    <form method="get" action="https://www.afpa.fr/">
+        <label for="nom3">Saisissez un texte pressez le bouton Contrôler </label><br/>
+        <input type="text" name="nom3" id="nom3" required="required"/>
+        <input type="submit" id="btn3" value="Contrôler" />
+    </form>
+
+    <script src="script.js"></script>   
+</body>
+
+</html>
